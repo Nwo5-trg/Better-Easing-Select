@@ -1,0 +1,45 @@
+{
+	"geode": "4.4.0",
+	"gd": {
+		"win": "2.2074",
+		"android": "2.2074",
+		"mac": "2.2074",
+		"ios": "2.2074"
+	},
+	"id": "nwo5.better_easing_select",
+	"name": "Better Easing Select",
+	"version": "v1.0.0",
+	"developer": "Nwo5",
+	"tags": ["utility", "interface", "editor", "enhancement", "offline"],
+	"description": "most overcomplicated easing mod ever",
+	"settings": {
+		"close-on-select": {
+			"type": "bool",
+			"name": "Close On Select",
+			"default": true
+		},
+		"steps": {
+			"type": "int",
+			"name": "Steps",
+			"description": "how many segments make up the advanced easing renders (less prolly means less lag)",
+			"default": 100,
+			"min": 15,
+			"max": 500
+		},
+		"thickness": {
+			"type": "float",
+			"name": "Thickness",
+			"description": "how thick the line for advanced easing renders are",
+			"default": 0.5,
+			"min": 0.1,
+			"max": 5
+		},
+		"col": {
+			"type": "rgb",
+			"name": "Color",
+			"description": "color for advanced easing renders",
+			"default": "#00FF00"
+		}
+	}
+
+}
