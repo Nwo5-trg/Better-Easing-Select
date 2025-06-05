@@ -1,5 +1,5 @@
 {
-	"geode": "4.4.0",
+	"geode": "4.5.0",
 	"gd": {
 		"win": "2.2074",
 		"android": "2.2074",
@@ -8,10 +8,10 @@
 	},
 	"id": "nwo5.better_easing_select",
 	"name": "Better Easing Select",
-	"version": "v1.0.0",
+	"version": "v1.0.1",
 	"developer": "Nwo5",
 	"tags": ["utility", "interface", "editor", "enhancement", "offline"],
-	"description": "most overcomplicated easing mod ever",
+	"description": "Most overcomplicated easing mod ever.",
 	"links": {"source": "https://github.com/Nwo5-trg/Better-Easing-Select"},
 	"settings": {
 		"close-on-select": {

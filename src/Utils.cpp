@@ -102,8 +102,8 @@ std::function<float(float, float)>getFunctionForEasing(int easing) {
 cocos2d::CCActionEase* getCCEase(cocos2d::CCActionInterval* action, int easing, float exponent) {
     if (easing >= easingFunctionMap.size()) easing = easing % easingFunctionMap.size();
     switch (easing) {
-        case 1: return CCEaseInOut::create(action, exponent); // ease in is broken so we just making some fake shit up so it looks good :3
-        case 2: return CCEaseInOut::create(action, exponent * 1.5);
+        case 1: return CCEaseInOut::create(action, exponent);
+        case 2: return CCEaseIn::create(action, exponent);
         case 3: return CCEaseOut::create(action, exponent);
         case 4: return CCEaseElasticInOut::create(action);
         case 5: return CCEaseElasticIn::create(action);
